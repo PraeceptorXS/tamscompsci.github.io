@@ -40,17 +40,17 @@ var data = {
 	}],
 	contact: "Feel free to send us an email (<a href='mailto:TAMSComputerScience@gmail.com'>TAMSComputerScience@gmail.com</a>) or contact a club executive (type <span class='special'>team</span>) individually via Facebook.",
 	team: [{
-		name: specialify("Manasi") + " Ramadurgum",
+		name: specialify("Ben") + " Sun",
 		position: "President"
 	}, {
-		name: specialify("Ryan") + " Chhong",
+		name: specialify("Ben") + " Taylor",
 		position: "Competitions Coordinator"
 	}, {
-		name: specialify("Samuel") + " Liu",
+		name: specialify("Connie") + " Wang",
 		position: "Volunteering Coordinator"
 	}, {
-		name: specialify("Justin") + " Cho",
-		position: "Publicist/Graphic Designer"
+		name: specialify("Eric") + " Zhang",
+		position: "Treasurer"
 	}],
 	competitions: "Competition schedule coming soon!",
 	links: "Nothing here... yet!",
@@ -177,7 +177,7 @@ $(function() {
 			[["contact"], lambdify('contact')],
 			[["clear", "cls"], function() { jqconsole.Clear(); return '\r'; }],
 			[["fb", "facebook"], function() {
-				window.location.href = "https://www.facebook.com/groups/TAMSCompSci2018";
+				window.location.href = "https://www.facebook.com/groups/CSO2020/";
 				return '\r';
 			}],
 			[["tilt"], function() {
